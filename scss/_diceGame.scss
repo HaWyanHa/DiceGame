@@ -1,0 +1,40 @@
+section {
+	margin: 10% 30%;
+	position: relative;
+}
+
+article {
+	width: 600px;
+	border: 3px solid black;
+	border-radius: 5%;
+	background-color: $backgroundColor;
+	margin: 0 auto;
+
+}
+
+header {
+	color: $headerColor;
+	text-align: center;
+}
+
+figure {
+	display: inline-block;
+	font-size: 40 px;
+	color: $textColor;
+}
+
+.dices {
+	@include die(20px, 20px, 1px solid white);
+
+}
+footer {
+	text-align: center;
+	color: $textColor;
+}
+
+button {
+	position: absolute;
+	bottom: 20%;
+	right: 30%;
+}
+
